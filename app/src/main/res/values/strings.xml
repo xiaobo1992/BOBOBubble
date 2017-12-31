@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BOBOBubble</string>
+    <string name="login_slogan">LOG INTO BOBOBUBBLE</string>
+    <string name="logout">Log out</string>
+    <string name="shots">Shots</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="likes">Likes</string>
+    <string name="followers">Followers</string>
+    <string name="comments">Comments</string>
+    <string name="teams">Teams</string>
+    <string name="debuts">Debuts</string>
+    <string name="attachments">Attachments</string>
+    <string name="animated">Animated</string>
+    <string name="buckets">Buckets</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="choosebuckets">Choose Buckets</string>
+
+</resources>

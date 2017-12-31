@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_menu_popular_shots"
+            android:checked="true"
+            android:textSize="@dimen/medium_text_size"
+            android:title="@string/shots" />
+
+        <item
+            android:id="@+id/drawer_menu_team_shots"
+            android:textSize="@dimen/medium_text_size"
+            android:title="@string/teams" />
+        <item
+            android:id="@+id/drawer_menu_debut_shots"
+            android:textSize="@dimen/medium_text_size"
+            android:title="@string/debuts" />
+
+        <item
+            android:id="@+id/drawer_menu_animated_shots"
+            android:textSize="@dimen/medium_text_size"
+            android:title="@string/animated" />
+        <item
+            android:id="@+id/drawer_menu_attachments_shots"
+            android:textSize="@dimen/medium_text_size"
+            android:title="@string/attachments" />
+
+
+        <item
+            android:id="@+id/drawer_menu_like_shots"
+            android:textSize="@dimen/medium_text_size"
+            android:title="@string/likes" />
+
+        <item
+            android:id="@+id/drawer_menu_buckets"
+            android:textSize="@dimen/medium_text_size"
+            android:title="@string/buckets" />
+    </group>
+</menu>

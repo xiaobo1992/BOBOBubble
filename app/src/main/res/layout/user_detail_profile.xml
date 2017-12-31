@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/user_detail_image"
+        android:layout_width="@dimen/profile_size"
+        android:layout_height="@dimen/profile_size"
+        android:layout_alignParentLeft="true"
+        fresco:roundAsCircle="true" />
+
+    <TextView
+        android:id="@+id/user_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/medium_margin"
+        android:layout_toRightOf="@+id/user_detail_image"
+        android:textSize="@dimen/large_text_size"
+        tools:text="@string/app_name"></TextView>
+
+    <TextView
+        android:id="@+id/user_detail_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_detail_name"
+        android:layout_marginLeft="@dimen/medium_margin"
+        android:layout_toRightOf="@+id/user_detail_image"
+        android:drawableLeft="@drawable/ic_location_on_black_24px"
+        android:drawablePadding="@dimen/small_margin"
+        android:textSize="@dimen/medium_text_size"
+        tools:text="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_detail_location"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/shots"
+                android:textSize="@dimen/medium_text_size" />
+
+            <TextView
+                android:id="@+id/user_detail_shot_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/medium_text_size"
+                tools:text="12" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/followers"
+                android:textSize="@dimen/medium_text_size" />
+
+            <TextView
+                android:id="@+id/user_detail_follower_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/medium_text_size"
+                tools:text="12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/comments"
+                android:textSize="@dimen/medium_text_size" />
+
+            <TextView
+                android:id="@+id/user_detail_comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/medium_text_size"
+                tools:text="12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/likes"
+                android:textSize="@dimen/medium_text_size" />
+
+            <TextView
+                android:id="@+id/user_detail_like_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/medium_text_size"
+                tools:text="12" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

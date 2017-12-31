@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bucket_list_add"
+        android:src="@drawable/ic_add_circle_white_24px"
+        android:layout_width="@dimen/icon_image_size"
+        android:layout_height="@dimen/icon_image_size"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:layout_marginRight="@dimen/medium_margin" />
+</android.support.design.widget.CoordinatorLayout>
