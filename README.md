@@ -9,6 +9,7 @@ The all information is provided through [Dribbble API](http://developer.dribbble
 * Storing all the favourite shots into the relevant buckets
 * Like/dislike the shot
 * Presenting the artist profile and their relevant art works
+* oAuth login
 
 ## Google Play
 This app is available on the [Google Play](https://play.google.com/store/apps/details?id=com.bobo.normalman.bobobubble&hl=en).
